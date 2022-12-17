@@ -13085,7 +13085,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><p align=center><img src="https://drive.google.com/uc?id=1DpQG0RDyXmMhxZv5nJNkd2e-7cBgApEo"></p>
+<p><p align=center><img src="Intro_img.jpg"></p>
 <hr class="solid">
 </div>
 </div>
@@ -13803,7 +13803,7 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Visualizing the Training Scenes and Validation Scenes (with labels)</p>
-<p><img src="https://drive.google.com/uc?id=1zeTQCMnuIacijHtMGWz9wXIlXRLQOSDC" alt="alt">  <img src="https://drive.google.com/uc?id=1l0T3wOqxa2RKa09-qp9CrKi3ID-qI5th" alt="alt"></p>
+<p><img src="training.png" alt="alt">  <img src="validation.png" alt="alt"></p>
 <p>(I am using QGIS to visualize the imagery as displaying it with a library such as matplotlib would crash the .ipybn. The images are too large for the kernel to handle unless your hardware has loads of RAM)</p>
 
 </div>
@@ -14525,7 +14525,7 @@ Test accuracy: 44.73%
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Model-2:-EfficientNetV2B0">Model 2: EfficientNetV2B0<a class="anchor-link" href="#Model-2:-EfficientNetV2B0">&#182;</a></h3><p>After poor performance with my custom model, I decided to apply transfer learning to my detection problem. Transfer learning is the act of reusing a previously trained model on a new problem. For my pretrained model I chose <a href="https://arxiv.org/abs/2104.00298"> EfficientNetV2</a> as I wanted a model that my hardware could handle in terms of RAM and training speed. EfficientNetV2 significantly outperforms other models of similar speed when comparing accuracy and was recently developed in 2021. I thought it would be interesting to test a new family of CNNs on a traditionally hard problem such as SAR vessel detection.</p>
 <p>At a very broad level, EfficientNetV2 works through an improved progressive learning technique. It begins with very small images and weak regularization but as it moves through the epochs, the model gradually increases the images size and regularization strength.</p>
-<p><img src="https://drive.google.com/uc?id=1d75Vr9-lNbKR981Uc5rn_hXxS_HjNsWc" alt="alt"></p>
+<p><img src="EfficientNet_ex.JPG" alt="alt"></p>
 <p>(EfficientNetv2 Example)</p>
 
 </div>
