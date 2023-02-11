@@ -1,6 +1,6 @@
-# Dark Vessel Detection
+# Vessel Detection
 
-Trained a convolutional neural network to detect fishing vessels on  Synthetic Aperture RADAR (SAR) imagery.
+Trained a convolutional neural network in Python to detect fishing vessels on  Synthetic Aperture RADAR (SAR) imagery.
 
 Packages used include gdal, numpy, pandas, matplotlib, tensorflow, and keras.
 
